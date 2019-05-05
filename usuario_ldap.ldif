@@ -1,0 +1,17 @@
+# LDAP user entry
+dn: cn=luis,ou=usuarios,dc=example,dc=org
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: luis
+uid: luis
+uidNumber: 16859
+gidNumber: 100
+homeDirectory: /home/luis
+loginShell: /bin/bash
+gecos: luis
+userPassword: luis
+shadowLastChange: 0
+shadowMax: 0
+shadowWarning: 0
